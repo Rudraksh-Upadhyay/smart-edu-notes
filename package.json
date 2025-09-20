@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "npx prisma generate && next build",
     "start": "next start",
-    "lint": "eslint",
+    "lint": "next lint",
     "migrate": "npx dotenv -e .env.local -- npx prisma generate && npx dotenv -e .env.local -- npx prisma migrate dev --schema=src/db/schema.prisma"
   },
   "prisma": {
