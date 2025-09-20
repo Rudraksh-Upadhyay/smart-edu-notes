@@ -11,8 +11,6 @@ import {
 import { Input } from "./ui/input";
 import { useEffect, useMemo, useState } from "react";
 import { SearchIcon } from "lucide-react";
-
-import fuse from "fuse.js";
 import Fuse from "fuse.js";
 import SelectNoteButton from "./SelectNoteButton";
 import DeleteNoteButton from "./DeleteNoteButton";
@@ -55,7 +53,8 @@ function SidebarGroupContent({notes} : Props) {
 
       <SidebarMenu className="mt-4">
         {filterNotes.map((note) => (
-          <SidebarMenuItem className="cursor-pointer hover:bg-muted  p-2 group/item border-2 shadow-2xl w-full h-25">
+          // key={note.id} add kiya hai 
+          <SidebarMenuItem key={note.id} className="cursor-pointer hover:bg-muted  p-2 group/item border-2 shadow-2xl w-full h-25">
             {/* {note.text} */}
             <SelectNoteButton note={note}/>
 

@@ -12,7 +12,7 @@ import { createNoteAction } from "@/action/notes";
 type Props = {
   user: User | null;
 }
-function newNoteButton({user} : Props) {
+function NewNoteButton({user} : Props) {
 
   console.log(user?.email);
 
@@ -47,4 +47,4 @@ function newNoteButton({user} : Props) {
   )
 }
 
-export default newNoteButton;
+export default NewNoteButton;

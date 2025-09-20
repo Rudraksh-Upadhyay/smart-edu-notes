@@ -12,6 +12,7 @@ type Props ={
     note : Note;
 }
 
+
 function SelectNoteButton({note} : Props) {
 
     const noteId = useSearchParams().get("nodeId") || "";
