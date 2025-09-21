@@ -1,4 +1,4 @@
-Demo of this Project -> [Smart-Edu-Note](https://smart-edu-notes-kash.vercel.app/)
+Demo of this Project -> [Smart-Edu-Note](https://smart-edu-notes.vercel.app/)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
